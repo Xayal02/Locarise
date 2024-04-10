@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ua8YQWwZ76O+X81sfMaBiuLEWVkJn0I4rLjg14ur73xpBFKDyVbDkA+l6YkeoODDD68TWZKZzWvHpqSXpWOGnQ==",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudio\\Projects\\Locarise\\src\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xayal\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\Retail Group Azerbaijan.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Client\\Retail Group Azerbaijan.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\Socar AQS.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Client\\Socar AQS.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\TWI.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Client\\TWI.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\Toyota Azerbaijan.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Client\\Toyota Azerbaijan.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\AutoCAD.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\AutoCAD.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Desktop Publishing.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\Desktop Publishing.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Glossary Managament.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\Glossary Managament.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Interpreting.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\Interpreting.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Notary and Legalization.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\Notary and Legalization.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Proofreading.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\Proofreading.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Research Management.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\Research Management.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Secondment of Translators.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\Secondment of Translators.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Terminology.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\Terminology.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Transcription.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\Transcription.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Translation Technology.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\Translation Technology.png"
+    },
+    {
+      "Id": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Translation and Localization.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\Service\\Translation and Localization.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Web.props",
+      "PackagePath": "build\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Web.props",
+      "PackagePath": "buildMultiTargeting\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Web.props",
+      "PackagePath": "buildTransitive\\Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
