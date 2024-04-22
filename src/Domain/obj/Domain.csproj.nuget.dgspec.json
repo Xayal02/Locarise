@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudio\\Projects\\Locarise\\src\\Domain\\Domain.csproj": {}
+    "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio\\Projects\\Locarise\\src\\Domain\\Domain.csproj": {
+    "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio\\Projects\\Locarise\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\VisualStudio\\Projects\\Locarise\\src\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\xayal\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio\\Projects\\Locarise\\src\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\khahmadov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\xayal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\khahmadov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,12 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x86": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
