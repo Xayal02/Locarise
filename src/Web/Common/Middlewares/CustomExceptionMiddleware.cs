@@ -120,7 +120,7 @@ namespace Web.Common.Middlewares
                     code = HttpStatusCode.Unauthorized;
                     break;
 
-                case Domain.Exceptions.ValidationException validationException:
+                case FluentValidation.ValidationException validationException:
                     code = HttpStatusCode.NotAcceptable;
                     result = JsonConvert.SerializeObject(validationException.Errors);
                     break;

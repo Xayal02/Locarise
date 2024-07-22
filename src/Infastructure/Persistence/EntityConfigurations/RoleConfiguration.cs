@@ -24,10 +24,8 @@ namespace Infastructure.Persistence.EntityConfigurations
                    .HasColumnName("name");
 
             builder.Property(x => x.IsDeleted)
+                   .HasDefaultValueSql("0")
                    .HasColumnName("is_deleted");
-
-            builder.Property(x => x.DeletedDate)
-                   .HasColumnName("deleted_date");
         }
     }
 }

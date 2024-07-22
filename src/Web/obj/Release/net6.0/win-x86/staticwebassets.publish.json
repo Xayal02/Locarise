@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W6exA+PSpid5xUVJAhGkLxnJLRb4NUtWe3mi13c5LfQ=",
+  "Hash": "Hx7kKcMi2x6Wohe/gnNYDfHVYr/EkpobsPsCWr9BuRg=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Web\\wwwroot",
       "Source": "Web",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\Retail Group Azerbaijan.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\Retail Group Azerbaijan.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Client/Retail Group Azerbaijan.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Client\\Retail Group Azerbaijan.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\Socar AQS.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\Socar AQS.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Client/Socar AQS.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Client\\Socar AQS.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\Toyota Azerbaijan.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\Toyota Azerbaijan.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Client/Toyota Azerbaijan.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Client\\Toyota Azerbaijan.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\TWI.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Client\\TWI.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Client/TWI.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Client\\TWI.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\AutoCAD.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\AutoCAD.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/AutoCAD.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Service\\AutoCAD.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Desktop Publishing.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Desktop Publishing.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/Desktop Publishing.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Service\\Desktop Publishing.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Glossary Managament.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Glossary Managament.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/Glossary Managament.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Service\\Glossary Managament.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Interpreting.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Interpreting.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/Interpreting.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Service\\Interpreting.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Notary and Legalization.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Notary and Legalization.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/Notary and Legalization.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Service\\Notary and Legalization.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Proofreading.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Proofreading.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/Proofreading.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Service\\Proofreading.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Research Management.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Research Management.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/Research Management.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Service\\Research Management.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Secondment of Translators.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Secondment of Translators.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/Secondment of Translators.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Service\\Secondment of Translators.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Terminology.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Terminology.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/Terminology.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Service\\Terminology.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Transcription.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Transcription.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/Transcription.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Service\\Transcription.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Translation and Localization.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Translation and Localization.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/Translation and Localization.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dashboard\\Service\\Translation and Localization.png"
     },
     {
-      "Identity": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Translation Technology.png",
+      "Identity": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\Images\\Dashboard\\Service\\Translation Technology.png",
       "SourceId": "Web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\VisualStudio\\Projects\\Locarise\\src\\Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\khahmadov\\Desktop\\Locarise\\Locarise\\src\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
       "RelativePath": "Images/Dashboard/Service/Translation Technology.png",
       "AssetKind": "All",

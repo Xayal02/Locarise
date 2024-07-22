@@ -12,7 +12,10 @@ using Application.Common.Interfaces;
 using Domain.Common.Entities;
 using Domain.Common.Interfaces;
 using Domain.Entities.Login;
-using Domain.Entities.Dashboard;
+using Domain.Entities.AboutUs;
+using Domain.Entities.Services;
+using Domain.Entities.HomePage;
+using Domain.Entities.ContactUs;
 
 namespace Infastructure.Persistence
 {
@@ -59,6 +62,8 @@ namespace Infastructure.Persistence
         public DbSet<FAQ> FAQs { get; set; }
         public DbSet<Field> Fields { get; set; }
         public DbSet<Client> Clients { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<TeamMember> TeamMembers { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

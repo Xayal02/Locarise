@@ -22,7 +22,7 @@ namespace Infastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Domain.Entities.Dashboard.Client", b =>
+            modelBuilder.Entity("Domain.Entities.AboutUs.Client", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -35,14 +35,20 @@ namespace Infastructure.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("created_date");
 
-                    b.Property<long?>("CreatedUserId")
-                        .HasColumnType("bigint")
+                    b.Property<short?>("CreatedUserId")
+                        .HasColumnType("smallint")
                         .HasColumnName("created_user_id");
 
-                    b.Property<string>("IconPath")
+                    b.Property<string>("ImagePath")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
-                        .HasColumnName("icon_path");
+                        .HasColumnName("image_path");
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasColumnName("is_deleted")
+                        .HasDefaultValueSql("0");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -53,8 +59,8 @@ namespace Infastructure.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("updated_date");
 
-                    b.Property<long?>("UpdatedUserId")
-                        .HasColumnType("bigint")
+                    b.Property<short?>("UpdatedUserId")
+                        .HasColumnType("smallint")
                         .HasColumnName("updated_user_id");
 
                     b.HasKey("Id");
@@ -62,7 +68,7 @@ namespace Infastructure.Migrations
                     b.ToTable("clients", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Dashboard.Comment", b =>
+            modelBuilder.Entity("Domain.Entities.AboutUs.Comment", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -75,8 +81,8 @@ namespace Infastructure.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("created_date");
 
-                    b.Property<long?>("CreatedUserId")
-                        .HasColumnType("bigint")
+                    b.Property<short?>("CreatedUserId")
+                        .HasColumnType("smallint")
                         .HasColumnName("created_user_id");
 
                     b.Property<bool>("IsDeleted")
@@ -94,14 +100,18 @@ namespace Infastructure.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("updated_date");
 
-                    b.Property<long?>("UpdatedUserId")
-                        .HasColumnType("bigint")
+                    b.Property<short?>("UpdatedUserId")
+                        .HasColumnType("smallint")
                         .HasColumnName("updated_user_id");
 
                     b.Property<string>("UserFullName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("user_full_name");
+
+                    b.Property<string>("UserImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<short>("Value")
                         .HasColumnType("smallint")
@@ -112,7 +122,7 @@ namespace Infastructure.Migrations
                     b.ToTable("comments", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Dashboard.FAQ", b =>
+            modelBuilder.Entity("Domain.Entities.AboutUs.TeamMember", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -125,8 +135,99 @@ namespace Infastructure.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("created_date");
 
-                    b.Property<long?>("CreatedUserId")
-                        .HasColumnType("bigint")
+                    b.Property<short?>("CreatedUserId")
+                        .HasColumnType("smallint")
+                        .HasColumnName("created_user_id");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("full_name");
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("image_path");
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasColumnName("is_deleted")
+                        .HasDefaultValueSql("0");
+
+                    b.Property<string>("Position")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("position");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("updated_date");
+
+                    b.Property<short?>("UpdatedUserId")
+                        .HasColumnType("smallint")
+                        .HasColumnName("updated_user_id");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("team_members", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.ContactUs.Contact", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("request_message");
+
+                    b.Property<DateTime>("RequestDate")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2024, 4, 30, 20, 34, 59, 543, DateTimeKind.Utc).AddTicks(1665))
+                        .HasColumnName("request_date");
+
+                    b.Property<string>("RequesterEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("requester_email");
+
+                    b.Property<string>("RequesterFullName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("requester_full_name");
+
+                    b.Property<string>("RequesterPhone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("requester_phone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("contact_us_requests", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.HomePage.FAQ", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("created_date");
+
+                    b.Property<short?>("CreatedUserId")
+                        .HasColumnType("smallint")
                         .HasColumnName("created_user_id");
 
                     b.Property<string>("Description")
@@ -140,17 +241,17 @@ namespace Infastructure.Migrations
                         .HasColumnName("is_deleted")
                         .HasDefaultValueSql("0");
 
-                    b.Property<string>("Tittle")
+                    b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
-                        .HasColumnName("tittle");
+                        .HasColumnName("title");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2")
                         .HasColumnName("updated_date");
 
-                    b.Property<long?>("UpdatedUserId")
-                        .HasColumnType("bigint")
+                    b.Property<short?>("UpdatedUserId")
+                        .HasColumnType("smallint")
                         .HasColumnName("updated_user_id");
 
                     b.HasKey("Id");
@@ -158,7 +259,7 @@ namespace Infastructure.Migrations
                     b.ToTable("faqs", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Dashboard.Field", b =>
+            modelBuilder.Entity("Domain.Entities.HomePage.Field", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -171,8 +272,8 @@ namespace Infastructure.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("created_date");
 
-                    b.Property<long?>("CreatedUserId")
-                        .HasColumnType("bigint")
+                    b.Property<short?>("CreatedUserId")
+                        .HasColumnType("smallint")
                         .HasColumnName("created_user_id");
 
                     b.Property<bool>("IsDeleted")
@@ -190,8 +291,8 @@ namespace Infastructure.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("updated_date");
 
-                    b.Property<long?>("UpdatedUserId")
-                        .HasColumnType("bigint")
+                    b.Property<short?>("UpdatedUserId")
+                        .HasColumnType("smallint")
                         .HasColumnName("updated_user_id");
 
                     b.HasKey("Id");
@@ -199,58 +300,7 @@ namespace Infastructure.Migrations
                     b.ToTable("fields", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Dashboard.Service", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<DateTime?>("CreatedDate")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("created_date");
-
-                    b.Property<long?>("CreatedUserId")
-                        .HasColumnType("bigint")
-                        .HasColumnName("created_user_id");
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("description");
-
-                    b.Property<string>("IconPath")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("icon_path");
-
-                    b.Property<bool>("IsDeleted")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasColumnName("is_deleted")
-                        .HasDefaultValueSql("0");
-
-                    b.Property<string>("Tittle")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("tittle");
-
-                    b.Property<DateTime?>("UpdatedDate")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("updated_date");
-
-                    b.Property<long?>("UpdatedUserId")
-                        .HasColumnType("bigint")
-                        .HasColumnName("updated_user_id");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("services", (string)null);
-                });
-
-            modelBuilder.Entity("Domain.Entities.Dashboard.Statistics", b =>
+            modelBuilder.Entity("Domain.Entities.HomePage.Statistics", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -268,12 +318,13 @@ namespace Infastructure.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("updated_date");
 
-                    b.Property<long?>("UpdatedUserId")
-                        .HasColumnType("bigint")
+                    b.Property<short?>("UpdatedUserId")
+                        .HasColumnType("smallint")
                         .HasColumnName("updated_user_id");
 
-                    b.Property<int>("Value")
-                        .HasColumnType("int")
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("value");
 
                     b.HasKey("Id");
@@ -290,13 +341,11 @@ namespace Infastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<DateTime?>("DeletedDate")
-                        .HasColumnType("datetime2")
-                        .HasColumnName("deleted_date");
-
                     b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
-                        .HasColumnName("is_deleted");
+                        .HasColumnName("is_deleted")
+                        .HasDefaultValueSql("0");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -376,6 +425,57 @@ namespace Infastructure.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("users", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Services.Service", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("created_date");
+
+                    b.Property<short?>("CreatedUserId")
+                        .HasColumnType("smallint")
+                        .HasColumnName("created_user_id");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("description");
+
+                    b.Property<string>("IconPath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("icon_path");
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasColumnName("is_deleted")
+                        .HasDefaultValueSql("0");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("title");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("updated_date");
+
+                    b.Property<short?>("UpdatedUserId")
+                        .HasColumnType("smallint")
+                        .HasColumnName("updated_user_id");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("services", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Login.User", b =>

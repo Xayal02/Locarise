@@ -1,4 +1,4 @@
-﻿using Domain.Entities.Dashboard;
+﻿using Domain.Entities.AboutUs;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -21,10 +21,11 @@ namespace Infastructure.Persictence.EntityConfigurationc
             builder.Property(c => c.Name)
                    .HasColumnName("name");
 
-            builder.Property(c => c.IconPath)
-                   .HasColumnName("icon_path");
+            builder.Property(c => c.ImagePath)
+                   .HasColumnName("image_path");
 
             builder.Property(c => c.CreatedUserId)
+                  .HasColumnType("smallint")
                   .HasColumnName("created_user_id");
 
 
@@ -33,11 +34,16 @@ namespace Infastructure.Persictence.EntityConfigurationc
 
 
             builder.Property(c => c.UpdatedUserId)
+                  .HasColumnType("smallint")
                   .HasColumnName("updated_user_id");
 
 
             builder.Property(c => c.UpdatedDate)
                   .HasColumnName("updated_date");
+
+            builder.Property(c => c.IsDeleted)
+                .HasColumnName("is_deleted")
+                .HasDefaultValueSql("0");
         }
     }
 }

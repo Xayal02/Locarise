@@ -1,4 +1,4 @@
-﻿using Domain.Entities.Dashboard;
+﻿using Domain.Entities.HomePage;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -18,13 +18,14 @@ namespace Infastructure.Persistence.EntityConfigurations
             builder.Property(s => s.Id)
                    .HasColumnName("id");
 
-            builder.Property(s => s.Tittle)
-                   .HasColumnName("tittle");
+            builder.Property(s => s.Title)
+                   .HasColumnName("title");
 
             builder.Property(s => s.Description)
                    .HasColumnName("description");
 
             builder.Property(s => s.CreatedUserId)
+                  .HasColumnType("smallint")
                   .HasColumnName("created_user_id");
 
 
@@ -33,6 +34,7 @@ namespace Infastructure.Persistence.EntityConfigurations
 
 
             builder.Property(s => s.UpdatedUserId)
+                  .HasColumnType("smallint")
                   .HasColumnName("updated_user_id");
 
 

@@ -13,7 +13,7 @@ namespace Web.Common.Services
 
         public CurrentUserServiceTokenLogic(IHttpContextAccessor httpContextAccessor)
         {
-            if(httpContextAccessor.HttpContext != null )
+            if(httpContextAccessor.HttpContext != null && httpContextAccessor.HttpContext.Request.Headers.TryGetValue("Authorization",out StringValues stringValue) )
             {
                var userClaims = TokenFactory.ReturnCurrentUserClaims(httpContextAccessor.HttpContext);
 

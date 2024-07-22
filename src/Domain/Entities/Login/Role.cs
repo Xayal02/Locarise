@@ -8,11 +8,10 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities.Login
 {
-    public class Role : BaseEntity<int>, ISoftDelete, IHasDeletedTime
+    public class Role : BaseEntity<int>, ISoftDelete
     {
         public string Name { get; set; }
         public bool IsDeleted { get; set ; }
-        public DateTime? DeletedDate { get; set; }
         public List<User> Users { get; set; }
     }
 }

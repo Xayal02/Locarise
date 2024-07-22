@@ -1,4 +1,4 @@
-﻿using Domain.Entities.Dashboard;
+﻿using Domain.Entities.HomePage;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -25,6 +25,7 @@ namespace Infastructure.Persistence.EntityConfigurations
                    .HasColumnName("value");
 
             builder.Property(c => c.UpdatedUserId)
+                  .HasColumnType("smallint")
                   .HasColumnName("updated_user_id");
 
 

@@ -81,6 +81,8 @@ app.UseSwagger();
 
 app.UseCustomExceptionMiddleware();
 
+app.UseStaticFiles();
+
 //app.UseProblemDetails();
 
 

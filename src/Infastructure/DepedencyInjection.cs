@@ -19,7 +19,7 @@ namespace Infastructure
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(
                 configuration.GetConnectionString("Default"),
-                b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+                b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName).EnableRetryOnFailure()));
 
             services.AddScoped(typeof(IRepository<,>), typeof(EfRepository<,>));
 
